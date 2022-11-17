@@ -1,0 +1,1598 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/devices.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-device-switcher,
+.rttpg-panel-control-wrapper .rttpg-device-switcher {
+  color: #a4afb7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  height: 0;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.15s;
+  font-size: 11px;
+}
+.rttpg-components-popover .rttpg-device-switcher i,
+.rttpg-panel-control-wrapper .rttpg-device-switcher i {
+  font-size: inherit;
+}
+.rttpg-components-popover .rttpg-device-switcher.active,
+.rttpg-panel-control-wrapper .rttpg-device-switcher.active {
+  height: 24px;
+  transform: scale(1);
+  opacity: 1;
+}
+.rttpg-components-popover .rttpg-device-switchers,
+.rttpg-panel-control-wrapper .rttpg-device-switchers {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.rttpg-components-popover .rttpg-device-switchers-wrap,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-wrap {
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  color: #e0e1e3;
+  z-index: 44;
+}
+.rttpg-components-popover .rttpg-device-switchers-open .rttpg-device-switchers-wrap,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-open .rttpg-device-switchers-wrap {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border-radius: 2px;
+}
+.rttpg-components-popover .rttpg-device-switchers-open.active-md .rttpg-device-switchers-wrap,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-open.active-md .rttpg-device-switchers-wrap {
+  top: 0;
+}
+.rttpg-components-popover .rttpg-device-switchers-open.active-sm .rttpg-device-switchers-wrap,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-open.active-sm .rttpg-device-switchers-wrap {
+  top: 0;
+}
+.rttpg-components-popover .rttpg-device-switchers-open.active-xs .rttpg-device-switchers-wrap,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-open.active-xs .rttpg-device-switchers-wrap {
+  top: 0;
+}
+.rttpg-components-popover .rttpg-device-switchers-open .rttpg-device-switcher,
+.rttpg-panel-control-wrapper .rttpg-device-switchers-open .rttpg-device-switcher {
+  height: 24px;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.rttpg-device-switchers-open .rttpg-device-switcher.active {
+  color: var(--rttpg-admin-color-primary, #0066ff);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/rangeDevice.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field .rttpg-cf-head .rt-left-part,
+.rttpg-panel-control-wrapper .rttpg-control-field .rttpg-cf-head .rt-left-part {
+  display: flex;
+  align-items: center;
+}
+.rttpg-components-popover .rttpg-control-field .rttpg-cf-head .rttpg-label,
+.rttpg-panel-control-wrapper .rttpg-control-field .rttpg-cf-head .rttpg-label {
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap {
+  --row-gap: 5px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .components-input-control__input,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .components-input-control__input {
+  height: 30px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .components-range-control__wrapper,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .components-range-control__wrapper {
+  color: var(--rttpg-admin-color-primary, #0066ff);
+  min-height: 25px;
+  height: 25px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .components-range-control__wrapper .acf-bf-cf-b-afb-199wkr,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .components-range-control__wrapper .acf-bf-cf-b-afb-199wkr {
+  background-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .components-base-control,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .components-base-control__field,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-control-field,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .components-base-control,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .components-base-control__field,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-control-field {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn {
+  font-size: 16px;
+  color: var(--rttpg-admin-color-secondary, #555);
+  background-color: transparent;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn span,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn span {
+  font-size: inherit;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn:focus,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-range-wrap .rttpg-cf-body .rttpg-undo-btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/alignment.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-alignment-wrap .rttpg-btn-group .rttpg-button,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-alignment-wrap .rttpg-btn-group .rttpg-button {
+  font-size: 12px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/styles.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap {
+  margin-bottom: 16px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list {
+  --row-gap: 10px;
+  --column-gap: 6px;
+  display: grid;
+  row-gap: var(--row-gap);
+  -moz-column-gap: var(--column-gap);
+       column-gap: var(--column-gap);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div {
+  --row-gap: 6px;
+  --column-gap: 6px;
+  display: grid;
+  row-gap: var(--row-gap);
+  -moz-column-gap: var(--column-gap);
+       column-gap: var(--column-gap);
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-layout,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-layout {
+  display: block;
+  border: 2px solid var(--rttpg-admin-color-border);
+  border-radius: 0;
+  transition: var(--rttpg-admin-transition);
+  overflow: hidden;
+  height: 51px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-layout img,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-layout img {
+  display: block;
+  width: 100%;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-style-icon,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-style-svg,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-label,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-style-icon,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-style-svg,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-label {
+  display: block;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-label,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div .rttpg-label {
+  font-size: 12px !important;
+  line-height: 1.3;
+  transition: var(--rttpg-admin-transition);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div.rttpg-active .rttpg-layout,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div.rttpg-active .rttpg-layout {
+  border-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div.rttpg-active .rttpg-label,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list > div.rttpg-active .rttpg-label {
+  color: var(--rttpg-admin-color-primary, #0066ff) !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-2,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-3,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-4,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-styles-wrap .rttpg-style-list.rttpg-style-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/flatpickr/dist/themes/light.css ***!
+  \**************************************************************************************************************************************************************************************************/
+.flatpickr-calendar {
+  background: transparent;
+  opacity: 0;
+  display: none;
+  text-align: center;
+  visibility: hidden;
+  padding: 0;
+  -webkit-animation: none;
+          animation: none;
+  direction: ltr;
+  border: 0;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 5px;
+  position: absolute;
+  width: 307.875px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-box-shadow: 0 3px 13px rgba(0,0,0,0.08);
+          box-shadow: 0 3px 13px rgba(0,0,0,0.08);
+}
+.flatpickr-calendar.open,
+.flatpickr-calendar.inline {
+  opacity: 1;
+  max-height: 640px;
+  visibility: visible;
+}
+.flatpickr-calendar.open {
+  display: inline-block;
+  z-index: 99999;
+}
+.flatpickr-calendar.animate.open {
+  -webkit-animation: fpFadeInDown 300ms cubic-bezier(0.23, 1, 0.32, 1);
+          animation: fpFadeInDown 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.flatpickr-calendar.inline {
+  display: block;
+  position: relative;
+  top: 2px;
+}
+.flatpickr-calendar.static {
+  position: absolute;
+  top: calc(100% + 2px);
+}
+.flatpickr-calendar.static.open {
+  z-index: 999;
+  display: block;
+}
+.flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+1) .flatpickr-day.inRange:nth-child(7n+7) {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+2) .flatpickr-day.inRange:nth-child(7n+1) {
+  -webkit-box-shadow: -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+          box-shadow: -2px 0 0 #e6e6e6, 5px 0 0 #e6e6e6;
+}
+.flatpickr-calendar .hasWeeks .dayContainer,
+.flatpickr-calendar .hasTime .dayContainer {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.flatpickr-calendar .hasWeeks .dayContainer {
+  border-left: 0;
+}
+.flatpickr-calendar.hasTime .flatpickr-time {
+  height: 40px;
+  border-top: 1px solid #eceef1;
+}
+.flatpickr-calendar.hasTime .flatpickr-innerContainer {
+  border-bottom: 0;
+}
+.flatpickr-calendar.hasTime .flatpickr-time {
+  border: 1px solid #eceef1;
+}
+.flatpickr-calendar.noCalendar.hasTime .flatpickr-time {
+  height: auto;
+}
+.flatpickr-calendar:before,
+.flatpickr-calendar:after {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  left: 22px;
+}
+.flatpickr-calendar.rightMost:before,
+.flatpickr-calendar.arrowRight:before,
+.flatpickr-calendar.rightMost:after,
+.flatpickr-calendar.arrowRight:after {
+  left: auto;
+  right: 22px;
+}
+.flatpickr-calendar.arrowCenter:before,
+.flatpickr-calendar.arrowCenter:after {
+  left: 50%;
+  right: 50%;
+}
+.flatpickr-calendar:before {
+  border-width: 5px;
+  margin: 0 -5px;
+}
+.flatpickr-calendar:after {
+  border-width: 4px;
+  margin: 0 -4px;
+}
+.flatpickr-calendar.arrowTop:before,
+.flatpickr-calendar.arrowTop:after {
+  bottom: 100%;
+}
+.flatpickr-calendar.arrowTop:before {
+  border-bottom-color: #eceef1;
+}
+.flatpickr-calendar.arrowTop:after {
+  border-bottom-color: #eceef1;
+}
+.flatpickr-calendar.arrowBottom:before,
+.flatpickr-calendar.arrowBottom:after {
+  top: 100%;
+}
+.flatpickr-calendar.arrowBottom:before {
+  border-top-color: #eceef1;
+}
+.flatpickr-calendar.arrowBottom:after {
+  border-top-color: #eceef1;
+}
+.flatpickr-calendar:focus {
+  outline: 0;
+}
+.flatpickr-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.flatpickr-months {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flatpickr-months .flatpickr-month {
+  border-radius: 5px 5px 0 0;
+  background: #eceef1;
+  color: #5a6171;
+  fill: #5a6171;
+  height: 34px;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.flatpickr-months .flatpickr-prev-month,
+.flatpickr-months .flatpickr-next-month {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  height: 34px;
+  padding: 10px;
+  z-index: 3;
+  color: #5a6171;
+  fill: #5a6171;
+}
+.flatpickr-months .flatpickr-prev-month.flatpickr-disabled,
+.flatpickr-months .flatpickr-next-month.flatpickr-disabled {
+  display: none;
+}
+.flatpickr-months .flatpickr-prev-month i,
+.flatpickr-months .flatpickr-next-month i {
+  position: relative;
+}
+.flatpickr-months .flatpickr-prev-month.flatpickr-prev-month,
+.flatpickr-months .flatpickr-next-month.flatpickr-prev-month {
+/*
+      /*rtl:begin:ignore*/
+/*
+      */
+  left: 0;
+/*
+      /*rtl:end:ignore*/
+/*
+      */
+}
+/*
+      /*rtl:begin:ignore*/
+/*
+      /*rtl:end:ignore*/
+.flatpickr-months .flatpickr-prev-month.flatpickr-next-month,
+.flatpickr-months .flatpickr-next-month.flatpickr-next-month {
+/*
+      /*rtl:begin:ignore*/
+/*
+      */
+  right: 0;
+/*
+      /*rtl:end:ignore*/
+/*
+      */
+}
+/*
+      /*rtl:begin:ignore*/
+/*
+      /*rtl:end:ignore*/
+.flatpickr-months .flatpickr-prev-month:hover,
+.flatpickr-months .flatpickr-next-month:hover {
+  color: #bbb;
+}
+.flatpickr-months .flatpickr-prev-month:hover svg,
+.flatpickr-months .flatpickr-next-month:hover svg {
+  fill: #f64747;
+}
+.flatpickr-months .flatpickr-prev-month svg,
+.flatpickr-months .flatpickr-next-month svg {
+  width: 14px;
+  height: 14px;
+}
+.flatpickr-months .flatpickr-prev-month svg path,
+.flatpickr-months .flatpickr-next-month svg path {
+  -webkit-transition: fill 0.1s;
+  transition: fill 0.1s;
+  fill: inherit;
+}
+.numInputWrapper {
+  position: relative;
+  height: auto;
+}
+.numInputWrapper input,
+.numInputWrapper span {
+  display: inline-block;
+}
+.numInputWrapper input {
+  width: 100%;
+}
+.numInputWrapper input::-ms-clear {
+  display: none;
+}
+.numInputWrapper input::-webkit-outer-spin-button,
+.numInputWrapper input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+.numInputWrapper span {
+  position: absolute;
+  right: 0;
+  width: 14px;
+  padding: 0 4px 0 2px;
+  height: 50%;
+  line-height: 50%;
+  opacity: 0;
+  cursor: pointer;
+  border: 1px solid rgba(72,72,72,0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.numInputWrapper span:hover {
+  background: rgba(0,0,0,0.1);
+}
+.numInputWrapper span:active {
+  background: rgba(0,0,0,0.2);
+}
+.numInputWrapper span:after {
+  display: block;
+  content: "";
+  position: absolute;
+}
+.numInputWrapper span.arrowUp {
+  top: 0;
+  border-bottom: 0;
+}
+.numInputWrapper span.arrowUp:after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid rgba(72,72,72,0.6);
+  top: 26%;
+}
+.numInputWrapper span.arrowDown {
+  top: 50%;
+}
+.numInputWrapper span.arrowDown:after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid rgba(72,72,72,0.6);
+  top: 40%;
+}
+.numInputWrapper span svg {
+  width: inherit;
+  height: auto;
+}
+.numInputWrapper span svg path {
+  fill: rgba(90,97,113,0.5);
+}
+.numInputWrapper:hover {
+  background: rgba(0,0,0,0.05);
+}
+.numInputWrapper:hover span {
+  opacity: 1;
+}
+.flatpickr-current-month {
+  font-size: 135%;
+  line-height: inherit;
+  font-weight: 300;
+  color: inherit;
+  position: absolute;
+  width: 75%;
+  left: 12.5%;
+  padding: 7.48px 0 0 0;
+  line-height: 1;
+  height: 34px;
+  display: inline-block;
+  text-align: center;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+.flatpickr-current-month span.cur-month {
+  font-family: inherit;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  margin-left: 0.5ch;
+  padding: 0;
+}
+.flatpickr-current-month span.cur-month:hover {
+  background: rgba(0,0,0,0.05);
+}
+.flatpickr-current-month .numInputWrapper {
+  width: 6ch;
+  width: 7ch\0;
+  display: inline-block;
+}
+.flatpickr-current-month .numInputWrapper span.arrowUp:after {
+  border-bottom-color: #5a6171;
+}
+.flatpickr-current-month .numInputWrapper span.arrowDown:after {
+  border-top-color: #5a6171;
+}
+.flatpickr-current-month input.cur-year {
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  cursor: text;
+  padding: 0 0 0 0.5ch;
+  margin: 0;
+  display: inline-block;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: inherit;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  vertical-align: initial;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.flatpickr-current-month input.cur-year:focus {
+  outline: 0;
+}
+.flatpickr-current-month input.cur-year[disabled],
+.flatpickr-current-month input.cur-year[disabled]:hover {
+  font-size: 100%;
+  color: rgba(90,97,113,0.5);
+  background: transparent;
+  pointer-events: none;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  appearance: menulist;
+  background: #eceef1;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 300;
+  height: auto;
+  line-height: inherit;
+  margin: -1px 0 0 0;
+  outline: none;
+  padding: 0 0 0 0.5ch;
+  position: relative;
+  vertical-align: initial;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  width: auto;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months:focus,
+.flatpickr-current-month .flatpickr-monthDropdown-months:active {
+  outline: none;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months:hover {
+  background: rgba(0,0,0,0.05);
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month {
+  background-color: #eceef1;
+  outline: none;
+  padding: 0;
+}
+.flatpickr-weekdays {
+  background: #eceef1;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 28px;
+}
+.flatpickr-weekdays .flatpickr-weekdaycontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+span.flatpickr-weekday {
+  cursor: default;
+  font-size: 90%;
+  background: #eceef1;
+  color: #5a6171;
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: bolder;
+}
+.dayContainer,
+.flatpickr-weeks {
+  padding: 1px 0 0 0;
+}
+.flatpickr-days {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 307.875px;
+  border-left: 1px solid #eceef1;
+  border-right: 1px solid #eceef1;
+}
+.flatpickr-days:focus {
+  outline: 0;
+}
+.dayContainer {
+  padding: 0;
+  outline: 0;
+  text-align: left;
+  width: 307.875px;
+  min-width: 307.875px;
+  max-width: 307.875px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+.dayContainer + .dayContainer {
+  -webkit-box-shadow: -1px 0 0 #eceef1;
+          box-shadow: -1px 0 0 #eceef1;
+}
+.flatpickr-day {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #484848;
+  cursor: pointer;
+  font-weight: 400;
+  width: 14.2857143%;
+  -webkit-flex-basis: 14.2857143%;
+      -ms-flex-preferred-size: 14.2857143%;
+          flex-basis: 14.2857143%;
+  max-width: 39px;
+  height: 39px;
+  line-height: 39px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.flatpickr-day.inRange,
+.flatpickr-day.prevMonthDay.inRange,
+.flatpickr-day.nextMonthDay.inRange,
+.flatpickr-day.today.inRange,
+.flatpickr-day.prevMonthDay.today.inRange,
+.flatpickr-day.nextMonthDay.today.inRange,
+.flatpickr-day:hover,
+.flatpickr-day.prevMonthDay:hover,
+.flatpickr-day.nextMonthDay:hover,
+.flatpickr-day:focus,
+.flatpickr-day.prevMonthDay:focus,
+.flatpickr-day.nextMonthDay:focus {
+  cursor: pointer;
+  outline: 0;
+  background: #e2e2e2;
+  border-color: #e2e2e2;
+}
+.flatpickr-day.today {
+  border-color: #bbb;
+}
+.flatpickr-day.today:hover,
+.flatpickr-day.today:focus {
+  border-color: #bbb;
+  background: #bbb;
+  color: #fff;
+}
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: #ff5a5f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+  border-color: #ff5a5f;
+}
+.flatpickr-day.selected.startRange,
+.flatpickr-day.startRange.startRange,
+.flatpickr-day.endRange.startRange {
+  border-radius: 50px 0 0 50px;
+}
+.flatpickr-day.selected.endRange,
+.flatpickr-day.startRange.endRange,
+.flatpickr-day.endRange.endRange {
+  border-radius: 0 50px 50px 0;
+}
+.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)),
+.flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)),
+.flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {
+  -webkit-box-shadow: -10px 0 0 #ff5a5f;
+          box-shadow: -10px 0 0 #ff5a5f;
+}
+.flatpickr-day.selected.startRange.endRange,
+.flatpickr-day.startRange.startRange.endRange,
+.flatpickr-day.endRange.startRange.endRange {
+  border-radius: 50px;
+}
+.flatpickr-day.inRange {
+  border-radius: 0;
+  -webkit-box-shadow: -5px 0 0 #e2e2e2, 5px 0 0 #e2e2e2;
+          box-shadow: -5px 0 0 #e2e2e2, 5px 0 0 #e2e2e2;
+}
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.flatpickr-disabled:hover,
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay,
+.flatpickr-day.notAllowed,
+.flatpickr-day.notAllowed.prevMonthDay,
+.flatpickr-day.notAllowed.nextMonthDay {
+  color: rgba(72,72,72,0.3);
+  background: transparent;
+  border-color: transparent;
+  cursor: default;
+}
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.flatpickr-disabled:hover {
+  cursor: not-allowed;
+  color: rgba(72,72,72,0.1);
+}
+.flatpickr-day.week.selected {
+  border-radius: 0;
+  -webkit-box-shadow: -5px 0 0 #ff5a5f, 5px 0 0 #ff5a5f;
+          box-shadow: -5px 0 0 #ff5a5f, 5px 0 0 #ff5a5f;
+}
+.flatpickr-day.hidden {
+  visibility: hidden;
+}
+.rangeMode .flatpickr-day {
+  margin-top: 1px;
+}
+.flatpickr-weekwrapper {
+  float: left;
+}
+.flatpickr-weekwrapper .flatpickr-weeks {
+  padding: 0 12px;
+  border-left: 1px solid #eceef1;
+}
+.flatpickr-weekwrapper .flatpickr-weekday {
+  float: none;
+  width: 100%;
+  line-height: 28px;
+}
+.flatpickr-weekwrapper span.flatpickr-day,
+.flatpickr-weekwrapper span.flatpickr-day:hover {
+  display: block;
+  width: 100%;
+  max-width: none;
+  color: rgba(72,72,72,0.3);
+  background: transparent;
+  cursor: default;
+  border: none;
+}
+.flatpickr-innerContainer {
+  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid #eceef1;
+}
+.flatpickr-rContainer {
+  display: inline-block;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.flatpickr-time {
+  text-align: center;
+  outline: 0;
+  display: block;
+  height: 0;
+  line-height: 40px;
+  max-height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.flatpickr-time:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.flatpickr-time .numInputWrapper {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 40%;
+  height: 40px;
+  float: left;
+}
+.flatpickr-time .numInputWrapper span.arrowUp:after {
+  border-bottom-color: #484848;
+}
+.flatpickr-time .numInputWrapper span.arrowDown:after {
+  border-top-color: #484848;
+}
+.flatpickr-time.hasSeconds .numInputWrapper {
+  width: 26%;
+}
+.flatpickr-time.time24hr .numInputWrapper {
+  width: 49%;
+}
+.flatpickr-time input {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  line-height: inherit;
+  color: #484848;
+  font-size: 14px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.flatpickr-time input.flatpickr-hour {
+  font-weight: bold;
+}
+.flatpickr-time input.flatpickr-minute,
+.flatpickr-time input.flatpickr-second {
+  font-weight: 400;
+}
+.flatpickr-time input:focus {
+  outline: 0;
+  border: 0;
+}
+.flatpickr-time .flatpickr-time-separator,
+.flatpickr-time .flatpickr-am-pm {
+  height: inherit;
+  float: left;
+  line-height: inherit;
+  color: #484848;
+  font-weight: bold;
+  width: 2%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+      align-self: center;
+}
+.flatpickr-time .flatpickr-am-pm {
+  outline: 0;
+  width: 18%;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+}
+.flatpickr-time input:hover,
+.flatpickr-time .flatpickr-am-pm:hover,
+.flatpickr-time input:focus,
+.flatpickr-time .flatpickr-am-pm:focus {
+  background: #eaeaea;
+}
+.flatpickr-input[readonly] {
+  cursor: pointer;
+}
+@-webkit-keyframes fpFadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fpFadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+span.flatpickr-day.selected {
+  font-weight: bold;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/media.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+.rttpg-media {
+  margin-bottom: 15px;
+}
+.rttpg-media label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+}
+.rttpg-media .rttpg-single-img .rttpg-media-image-parent {
+  position: relative;
+  display: inline-block;
+  min-height: 140px;
+  min-width: 140px;
+}
+.rttpg-media .rttpg-single-img .rttpg-media-image-parent img {
+  margin: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/iconList.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-icon-main-wrapper .choose-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  font-size: 20px;
+  color: #6d7882;
+  background-color: #d5dadf;
+  border: 1px solid #ddd;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.rttpg-icon-main-wrapper .choose-icon.has-icon {
+  background-color: #f6f6f6;
+  background-image: linear-gradient(45deg, #ddd 25%, transparent 0, transparent 75%, #ddd 0, #ddd), linear-gradient(45deg, #ddd 25%, transparent 0, transparent 75%, #ddd 0, #ddd);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+.rttpg-icon-main-wrapper .choose-icon .default-icon {
+  font-size: 70px;
+}
+.rttpg-icon-main-wrapper .choose-icon span {
+  transition: color 0.4s;
+}
+.rttpg-icon-main-wrapper .choose-icon .fa-plus {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  pointer-events: none;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+.rttpg-icon-main-wrapper .choose-icon:hover {
+  color: #41474d;
+}
+.rttpg-icon-main-wrapper .choose-icon:not(.has-icon):hover {
+  background-color: #bfc3c7;
+}
+.rttpg-icon-main-wrapper .components-input-control__label {
+  color: var(--rttpg-admin-color-secondary, #555);
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+.rttpg-icon-main-wrapper .icon-inner-wrapper {
+  position: relative;
+}
+.rttpg-icon-main-wrapper .icon-inner-wrapper .rttpg-icon-wrapper {
+  background: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  border: 3px solid #ddd;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-warp {
+  width: 100%;
+  display: block;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-wrapper input {
+  background: #fff;
+  width: 100%;
+  height: 36px;
+  padding: 0 10px !important;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #E5E7EA;
+  position: relative;
+  z-index: 2;
+  margin-left: -0.5px;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-wrapper input:focus {
+  border: 1px solid #2184F9;
+  outline: 0;
+  box-shadow: none;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-wrapper .rttpg-remove-icon {
+  top: 7px;
+  box-shadow: none;
+  line-height: 18px;
+  border-collapse: #ddd;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-wrapper .rttpg-font-list span {
+  border-bottom: 0.5px solid #E5E7EA;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-wrapper .rttpg-font-list span.active {
+  color: #555d66;
+}
+.rttpg-icon-main-wrapper.rttpg-toggle-enabled label {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  width: auto;
+  display: inline-block;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons {
+  max-height: 177px;
+  margin: 0;
+  border: 1px solid #E5E7EA;
+  border-top: 0;
+  margin-top: -1px;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons > span {
+  text-align: center;
+  font-size: 15px;
+  float: left;
+  width: 16.6666666667%;
+  margin: 0;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons > span span {
+  display: block;
+  height: 37px;
+  line-height: 37px;
+  border: 1px solid #E5E7EA;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  background: #fff;
+  color: #565D66;
+  transition: 300ms;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons > span:hover {
+  cursor: pointer;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons > span:hover span {
+  color: #fff;
+  background: #2184F9;
+  border-color: #2184F9;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-icons > span.rttpg-active span {
+  color: #fff;
+  background: #2184F9;
+  border-color: #2184F9;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-inner {
+  width: 100%;
+  padding: 4px 9px;
+  display: block;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-inner:hover {
+  cursor: pointer;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-inner > i {
+  font-style: normal;
+  float: right;
+  padding: 3px;
+  font-size: 11px;
+}
+.rttpg-icon-main-wrapper .rttpg-icon-list-inner > i.fa-times:hover {
+  color: red;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/typography.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-typography-wrap,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-typography-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-typography-wrap .components-button,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-typography-wrap .components-button {
+  font-size: var(--rttpg-admin-text-base, 14px);
+  height: 28px !important;
+  width: 28px !important;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d5dadf;
+  background: transparent;
+  border-radius: 3px;
+  color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-typography-wrap .components-button > span,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-typography-wrap .components-button > span {
+  transition: unset;
+  line-height: 1;
+  height: 22px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-typography-wrap .components-button:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-typography-wrap .components-button:hover {
+  color: var(--rttpg-admin-color-white, #fff);
+  background-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-typography-content,
+.rttpg-panel-control-wrapper .rttpg-typography-content {
+  min-width: 230px;
+  padding: 5px 6px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/color.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-color-wrap,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-color-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-direction: row-reverse;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color .rttpg-undo-btn,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color .rttpg-undo-btn {
+  padding: 0;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color-ball,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-color-wrap .rttpg-color-ball {
+  background-image: linear-gradient(45deg, #e9e9e9 25%, transparent 0), linear-gradient(-45deg, #e9e9e9 25%, transparent 0), linear-gradient(45deg, transparent 75%, #e9e9e9 0), linear-gradient(-45deg, transparent 75%, #e9e9e9 0);
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  background-size: 10px 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/dimension.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-dimensions,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions {
+  overflow: hidden;
+  display: flex;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension:first-child input,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension:first-child input {
+  border-left: 1px solid var(--rttpg-admin-color-border);
+  border-radius: 3px 0 0 3px;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension input,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension input {
+  border-left: none;
+  border-radius: 0;
+  padding: 4px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 27px;
+  border-color: var(--rttpg-admin-color-border);
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension input:active, .rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension input:focus, .rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension input:hover,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension input:active,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension input:focus,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension input:hover {
+  box-shadow: none;
+  outline: 0;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid var(--rttpg-admin-color-border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions.linked,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions.linked {
+  background-color: var(--rttpg-admin-color-primary);
+  color: #ffffff;
+  border-color: var(--rttpg-admin-color-primary);
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions .rt-dm-link-icon,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions .rt-dm-link-icon {
+  font-size: 15px;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions:focus, .rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions:focus-visible,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions:focus,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension .rttpg-link-dimensions:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+.rttpg-components-popover .rttpg-control-dimensions .rttpg-control-dimension-label,
+.rttpg-panel-control-wrapper .rttpg-control-dimensions .rttpg-control-dimension-label {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/gradient.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-color,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-color {
+  row-gap: 0;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap {
+  --row-gap: 12px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__swatches,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__swatches {
+  gap: 8px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper {
+  height: 22px;
+  width: 22px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper:hover {
+  transform: scale(1);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper::before,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper::before {
+  display: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper > svg,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option-wrapper > svg {
+  display: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option {
+  position: relative;
+  padding: 5px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option::after,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option::after {
+  display: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option.is-pressed, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option.is-pressed,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option:hover {
+  box-shadow: none !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option.is-pressed::before,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__option.is-pressed::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  background: url("data:image/svg+xml,%0A%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 448 512%27 width=%271em%27 height=%271em%27 fill=%27%23ffffff%27 %3E%3Cpath d=%27M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z%27/%3E%3C/svg%3E") !important;
+  pointer-events: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper {
+  margin-top: 6px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button {
+  font-size: var(--rttpg-admin-text-xs, 12px);
+  padding: 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: none;
+  color: var(--rttpg-admin-color-black, #000);
+  background-color: #e0e0e0;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:hover {
+  color: var(--rttpg-admin-color-white, #fff);
+  background-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:focus,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-circular-option-picker__custom-clear-wrapper .components-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker > div:nth-of-type(2) > div:nth-of-type(2) > div,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker > div:nth-of-type(2) > div:nth-of-type(2) > div {
+  position: relative !important;
+  top: 6.5px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__gradient-bar,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__gradient-bar {
+  height: 36px;
+  border-radius: 4px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__markers-container,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__markers-container {
+  height: 100%;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button {
+  color: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+  background: transparent;
+  border: 2.5px solid #ffffff;
+  box-shadow: none;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:hover, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:focus, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:hover, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:focus,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:focus,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:hover, .rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point:hover,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__control-point-button:hover {
+  background: transparent;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__insert-point {
+  top: 11px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-select-control__input,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-textarea-control__input,
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-input-control__input,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-select-control__input,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-textarea-control__input,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-input-control__input {
+  height: 34px !important;
+  min-height: 34px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-input-control__backdrop,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-input-control__backdrop {
+  display: none !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle {
+  border: 1px solid var(--rttpg-admin-color-border);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle-indicator,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker .components-angle-picker-control__angle-circle-indicator {
+  background: var(--rttpg-admin-color-primary, #0066ff);
+  border-radius: 50%;
+  border-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line {
+  margin-bottom: 6px;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-input-control__label,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-input-control__label {
+  text-transform: capitalize;
+  padding-bottom: 8px !important;
+  margin-bottom: 0 !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type {
+  align-self: baseline;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container {
+  height: 34px !important;
+  border: 1px solid var(--rttpg-admin-color-border);
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-truncate,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-truncate {
+  color: var(--rttpg-admin-color-primary, #0066ff) !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-input-control__input,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container .components-input-control__input {
+  border: none !important;
+  height: 31.5px !important;
+  min-height: 31.5px !important;
+  padding-right: 0 !important;
+  padding-left: 6px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container:focus,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-gradient-wrap .components-custom-gradient-picker__ui-line .components-flex-item:last-of-type .components-input-control__container:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: var(--rttpg-admin-color-primary, #0066ff);
+}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/SelectObj1.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-bg-property,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-bg-property {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0 !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-bg-property select,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-bg-property select {
+  width: 130px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  min-height: 30px !important;
+  height: 30px !important;
+}
+.rttpg-components-popover .rttpg-control-field.rttpg-cf-bg-property .rttpg-cf-body > *,
+.rttpg-panel-control-wrapper .rttpg-control-field.rttpg-cf-bg-property .rttpg-cf-body > * {
+  margin-bottom: 0 !important;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/bgImage.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-bg-img .components-base-control__field,
+.rttpg-panel-control-wrapper .rttpg-bg-img .components-base-control__field {
+  display: grid;
+  gap: 6px;
+}
+.rttpg-components-popover .rttpg-bg-img .components-base-control .rttpg-img-remove-btn,
+.rttpg-components-popover .rttpg-bg-img .components-base-control .rttpg-image-avatar,
+.rttpg-panel-control-wrapper .rttpg-bg-img .components-base-control .rttpg-img-remove-btn,
+.rttpg-panel-control-wrapper .rttpg-bg-img .components-base-control .rttpg-image-avatar {
+  margin-bottom: 0;
+}
+.rttpg-components-popover .rttpg-bg-img .components-base-control .rttpg-img-remove-btn .open-image-button,
+.rttpg-components-popover .rttpg-bg-img .components-base-control .rttpg-image-avatar .open-image-button,
+.rttpg-panel-control-wrapper .rttpg-bg-img .components-base-control .rttpg-img-remove-btn .open-image-button,
+.rttpg-panel-control-wrapper .rttpg-bg-img .components-base-control .rttpg-image-avatar .open-image-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/background.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/scss/boxshadow.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.rttpg-components-popover .rttpg-boxshadow-content,
+.rttpg-panel-control-wrapper .rttpg-boxshadow-content {
+  min-width: 220px;
+}
+
+/*# sourceMappingURL=main.css.map*/
